@@ -16,7 +16,7 @@ namespace P6
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            button2.BackColor = Color.Blue;
             Button boton = (Button)sender;
             int nElementos = flowLayoutPanel1.Controls.Count;
             if (boton.BackColor.Name == "Red")
